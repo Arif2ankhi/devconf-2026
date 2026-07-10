@@ -119,3 +119,27 @@ div card img{
     margin-bottom: 5px;
 
 }
+
+.speakers-card{
+    margin-bottom: 20px;
+}
+
+.secure-spot{
+    margin-top: 60px;
+}
+.spot-heading{
+    display: flex;
+    /* justify-content: center; */
+    font-size: 36px;
+    font-weight: 800;display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+.spot-para{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #b1a6a6;
+    /* margin-bottom: 8rem; */
+}
