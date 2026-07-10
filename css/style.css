@@ -226,6 +226,62 @@ div card img{
 }
 
 
+/* Schedule section css  */
 
+.schedule{
+    margin-top:80px;
+    padding:60px 40px;
+    background:#f8fafc;
+}
+
+
+.schedule-heading{
+    text-align:center;
+    font-size:36px;
+    font-weight:800;
+}
+
+
+.schedule-subtitle{
+    text-align:center;
+    font-size:20px;
+    color:#777;
+    margin-top:15px;
+}
+
+
+.schedule-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:40px;
+}
+
+
+.schedule-card{
+    width:300px;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.schedule-card h3{
+    color:#1739d1;
+    margin-bottom:20px;
+}
+
+
+.schedule-card p{
+    margin:15px 0;
+    color:#555;
+}
+
+
+.schedule-card span{
+    font-weight:bold;
+    color:#111;
+}
 
 

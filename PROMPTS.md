@@ -1,0 +1,4 @@
+AI prompt to generate a conference Schedule 
+
+
+I am preparing a developer conference landing page. I have a navbar and a banner section. Besides these, I have a section for the speakers and also added another section to book a spot in that conference. I have a footer section on this page; I would like to add a relevant section just before the footer section in my landing page. I want to add a schedule for a couple of days with different categories of web dep, with the time, or one section with a frequently asked questions and answers session. I would like to make the schedule for 3 days in different time slots. Please advise and give me a demo of what it would look like.
