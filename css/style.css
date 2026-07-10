@@ -284,4 +284,81 @@ div card img{
     color:#111;
 }
 
+/* footer css */
+
+
+footer{
+    width:100%;
+    background:#1f2937;
+    color:#fff;
+    padding:30px 10%;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.logo h2{
+    font-size:28px;
+    font-weight:600;
+}
+
+.social-icons{
+    display:flex;
+    gap:18px;
+}
+
+.social-icons a{
+    width:42px;
+    height:42px;
+    background:#374151;
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    font-size:18px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#2563eb;
+    transform:translateY(-4px);
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#4b5563;
+    margin:25px 0;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#d1d5db;
+    font-size:15px;
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    .footer-top{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .social-icons{
+        justify-content:center;
+    }
+
+}
 
