@@ -148,8 +148,10 @@ div card img{
 }
 
 .price-cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
 }
 
@@ -171,8 +173,59 @@ div card img{
 
 .price-card-3{
     border:2 px solid gray ;
-    background-color:#af9f9f ;
+    background-color:#f8f4f4 ;
     border-radius: 12px;
       padding: 20px;
 
 }
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+
+    width:100%;
+        /* border:2px solid #2563eb; */
+    /* background:#fff; */
+    color:#2563eb;
+    font-size:38px;
+    font-weight:600;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-2{
+    background-color: #1739d1;
+    /* height:48px; */
+    /* border: none; */
+    /* color: white; */
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.btn-3{
+    height:48px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+
+
+
+
