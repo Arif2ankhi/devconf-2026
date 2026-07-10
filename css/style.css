@@ -2,6 +2,9 @@
     margin: 0 auto;
 }
 
+.body{
+width: 1280px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -142,4 +145,34 @@ div card img{
     font-size: 1.5rem;
     color: #b1a6a6;
     /* margin-bottom: 8rem; */
+}
+
+.price-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.price-card-1{
+    border:2 px solid gray ;
+    background-color: #E5E7EB;
+    border-radius: 12px;
+      padding: 20px;
+}
+
+.price-card-2{
+    border:2 px solid gray ;
+    background-color:#334d68 ;
+    border-radius: 12px;
+    padding: 20px;
+    color: #ffffff;
+
+}
+
+.price-card-3{
+    border:2 px solid gray ;
+    background-color:#af9f9f ;
+    border-radius: 12px;
+      padding: 20px;
+
 }
