@@ -305,6 +305,8 @@ button:hover{
 #btn2{
     display: flex;
     background-color: #1739d1;
+    justify-content: center;
+    
 }
 
 /* Schedule section css  */
